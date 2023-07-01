@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="RPS.css">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="vysledky">
+        <h2 id="winner">Pick up rock,paper or scissors!</h2>
+
+        <br>
+        <h3>YOUR CHOICE:</h3>
+        <div class="buttons">
+          <button id="rockButton"></button>
+          <button id="paperButton"></button>
+          <button id="scissorButton"></button>
+        </div>
+
+        <h3>COMPUTER'S CHOICE:</h3>
+        <p id="computerObr" hiddenvalue><img src="questionMarkBW.png"></p>
+
+        <p>
+          <button onclick="NewGame()" id="NewGame">New Game</button>
+        </p>
+
+        <div class="scoreChart">
+          Your total score:
+          <span id="score">0</span>
+          <br>
+          Computer's total score:
+          <span id="scoreComputer">0</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="RPS.js"></script>
+  </body>
+</html>

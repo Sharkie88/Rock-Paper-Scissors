@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+}
+
+h2 {
+  font-size: 40px;
+  padding: 5px;
+}
+
+button {
+  border: rgb(0, 0, 0) solid 3px;
+  border-radius: 10%;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 20px 0 20px;
+  transition: ease-in-out 0.5s;
+  font-family: 'Caprasimo', cursive;
+}
+
+button:hover {
+  border: rgb(213, 26, 255) solid 3px;
+  box-shadow: 0px 0px 5px rgb(213, 26, 255),
+    0px 0px 10px rgb(213, 26, 255),
+    0px 0px 10px #a41bff,
+    0px 0px 20px #821dff,
+    0px 0px 30px #511dff,
+    0px 0px 40px #1e65ff;
+}
+
+button:focus {
+  border: rgb(221, 0, 255) solid 3px;
+  box-shadow: 0px 0px 5px rgb(213, 26, 255),
+    0px 0px 10px rgb(213, 26, 255),
+    0px 0px 10px #a41bff,
+    0px 0px 20px #821dff,
+    0px 0px 30px #511dff,
+    0px 0px 40px #1e65ff;
+}
+
+.buttons {
+  margin: 20px;
+}
+
+#rockButton {
+  background-image: url('Rock.png');
+  background-size: cover;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+#paperButton {
+  background-image: url('Paper.png');
+  background-size: cover;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+#scissorButton {
+  background-image: url('Scissors.png');
+  background-size: cover;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+#startGame {
+  font-size: 170%;
+  margin: 30px;
+}
+
+#NewGame {
+  font-size: 80%;
+  margin: 0 30px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+#NewGame:focus {
+  box-shadow: none;
+  border: rgb(0, 0, 0) solid 3px;
+}
+
+.container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.vysledky {
+
+  border: 5px solid rgb(96, 250, 255);
+  border-radius: 30px;
+  margin: 30px auto;
+  background-image: url(wall4.jpg);
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+}
+
+.vysledky img {
+  width: 100px;
+  height: 100px;
+}
+
+.scoreChart {
+  margin: 0 0 10px 0;
+}
